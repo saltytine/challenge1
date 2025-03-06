@@ -6,7 +6,7 @@
     die();
   }
   if (isset($_GET['anime_is_bae'])) {
-    $your_entered_string = $_GET['anime_is_bae'];
+    $your_entered_string = $_GET['lmlmlml'];
     $intermediate_string = 'hellotherehooman';
     $final_string = preg_replace(
 	    	"/$intermediate_string/", '', $your_entered_string);
